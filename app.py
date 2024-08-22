@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 from dotenv import load_dotenv
 import os
@@ -140,7 +139,6 @@ elif summarization_type == "Audio Summarization":
                     sentiment, percentage = analyze_sentiment(summary)
                     st.markdown("## Sentiment Analysis")
                     st.write(f"The content has a {sentiment} effect with a percentage of {percentage:.2f}%")
-=======
 import streamlit as st
 from dotenv import load_dotenv
 import os
@@ -282,4 +280,3 @@ elif summarization_type == "Audio Summarization":
                     sentiment, percentage = analyze_sentiment(summary)
                     st.markdown("## Sentiment Analysis")
                     st.write(f"The content has a {sentiment} effect with a percentage of {percentage:.2f}%")
->>>>>>> 62f7fcc1ef1431ea6d37c30d44445a221c253810
